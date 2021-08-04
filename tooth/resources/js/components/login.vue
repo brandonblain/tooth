@@ -7,7 +7,7 @@ html, body{
 }
 
 body{
-		background-image:url('https://images-assets.nasa.gov/image/6900952/6900952~orig.jpg');
+		background-color:blue;
 	  background-size: cover;
 		display: flex;
 		flex-direction:column;
@@ -62,7 +62,12 @@ h2{
 	background-color: #47cf73;
 	color:#416d50;
 }
-
+.imagelogin{
+  background-size: 100% 100%;
+  background-repeat:no-repeat;
+  background:url(public/media/loginimage.jpg);
+  background-size: cover;
+}
 input{
 	height:35px;
 	padding: 5px 5px;
@@ -103,9 +108,11 @@ button:hover{
 
 <template>
 <div class="container">
+	<div class="row">
+	 <v-img :src="mymedia"></v-img>
     <div class="wrap">
         <div>
-            <img id="fondo" style="width:100%; background-image: {{ public_path('/media/loginimage.jpg')}};">
+            <img id="fondo" style="width:100%;">
         </div>
         <form>
         <h2>Login Ortho Jáquez</h2>
@@ -117,6 +124,7 @@ button:hover{
         <button v-on:click="onSubmit">Log in</button>
         </form>
     </div>
+	</div>
     </div>
 </template>
 
@@ -136,7 +144,8 @@ button:hover{
              fake: {
                  login: "vincent",
                  password: "admin"
-             }
+             },
+			 mymedia:'public_path(media/loginimage.jpg)',
          }
          },
 	computed: {

@@ -2002,6 +2002,14 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   data: function data() {
     return {
@@ -2017,7 +2025,8 @@ __webpack_require__.r(__webpack_exports__);
       fake: {
         login: "vincent",
         password: "admin"
-      }
+      },
+      mymedia: 'public_path(media/loginimage.jpg)'
     };
   },
   computed: {
@@ -6577,99 +6586,9 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 /*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/login.vue?vue&type=style&index=0&id=172b28a4&scoped=true&lang=css& ***!
   \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
-/***/ ((module, __webpack_exports__, __webpack_require__) => {
+/***/ (() => {
 
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
-/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
-// Imports
-
-var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
-// Module
-___CSS_LOADER_EXPORT___.push([module.id, "\nhtml[data-v-172b28a4], body[data-v-172b28a4]{\r\n\twidth:100%;\r\n\theight:100%;\r\n\tmargin:0px;\r\n\tfont-family: 'Work Sans', sans-serif;\n}\nbody[data-v-172b28a4]{\r\n\t\tbackground-image:url('https://images-assets.nasa.gov/image/6900952/6900952~orig.jpg');\r\n\t  background-size: cover;\r\n\t\tdisplay: flex;\r\n\t\tflex-direction:column;\r\n\t\tjustify-content:center;\r\n\t  align-items:center;\r\n\t\tcolor: #fff;\n}\nsection[data-v-172b28a4]{\r\n\tbackground-color: rgba(0, 0, 0, 0.72);\r\n\twidth:25%;\r\n\tmin-height:25%;\r\n\tdisplay:flex;\r\n\tflex-direction:column;\r\n\t/*margin-left:auto;\r\n\tmargin-right:auto;*/\n}\nform[data-v-172b28a4]{\r\n\tdisplay:flex;\r\n\tflex-direction:column;\r\n\tpadding: 15px;\n}\nh2[data-v-172b28a4]{\r\n\tfont-family: 'Archivo Black', sans-serif;\r\n\tcolor:#e0dada;\r\n\tmargin-left:auto;\r\n\tmargin-right:auto;\n}\n.info[data-v-172b28a4]{\r\n\twidth:100%;\r\n\tpadding: 1em 5px;\r\n\ttext-align:center;\r\n\tmin-height:45px;\r\n\tdisplay:flex;\r\n\tflex-direction:column;\r\n\tjustify-content:center;\r\n\talign-items:center;\n}\n.info.error[data-v-172b28a4]{\r\n\tborder:1px solid #a90e0;\r\n\tbackground-color: #ff3c41;\r\n\tcolor:#a90e0;\n}\n.info p[data-v-172b28a4]{\r\n\tmargin:auto;\r\n\tpadding:5px;\n}\n.info.good[data-v-172b28a4]{\r\n\tborder:1px solid #416d50;\r\n\tbackground-color: #47cf73;\r\n\tcolor:#416d50;\n}\ninput[data-v-172b28a4]{\r\n\theight:35px;\r\n\tpadding: 5px 5px;\r\n\tmargin: 10px 0px;\r\n\tbackground-color:#e0dada;\r\n\tborder:none;\n}\nbutton[data-v-172b28a4]{\r\n\theight:40px;\r\n\tpadding: 5px 5px;\r\n\tmargin: 10px 0px;\r\n\tfont-weight:bold;\r\n\tbackground-color:#be5256;\r\n\tborder:none;\r\n\tcolor:#e0dada;\r\n\tcursor:pointer;\r\n\tfont-size:16px;\n}\nbutton[data-v-172b28a4]:hover{\r\n\tbackground-color:#711f1b;\n}\n.shake[data-v-172b28a4]{\r\n\t-webkit-animation-name: shake;\r\n\t        animation-name: shake;\r\n\t-webkit-animation-duration:1s;\r\n\t        animation-duration:1s;\r\n\t/*animation-fill-mode: both;*/\n}\n@media screen and (max-width: 780px) {\nsection[data-v-172b28a4]{\r\n\t\twidth:90%;\n}\n}\r\n", ""]);
-// Exports
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
-
-
-/***/ }),
-
-/***/ "./node_modules/css-loader/dist/runtime/api.js":
-/*!*****************************************************!*\
-  !*** ./node_modules/css-loader/dist/runtime/api.js ***!
-  \*****************************************************/
-/***/ ((module) => {
-
-"use strict";
-
-
-/*
-  MIT License http://www.opensource.org/licenses/mit-license.php
-  Author Tobias Koppers @sokra
-*/
-// css base code, injected by the css-loader
-// eslint-disable-next-line func-names
-module.exports = function (cssWithMappingToString) {
-  var list = []; // return the list of modules as css string
-
-  list.toString = function toString() {
-    return this.map(function (item) {
-      var content = cssWithMappingToString(item);
-
-      if (item[2]) {
-        return "@media ".concat(item[2], " {").concat(content, "}");
-      }
-
-      return content;
-    }).join("");
-  }; // import a list of modules into the list
-  // eslint-disable-next-line func-names
-
-
-  list.i = function (modules, mediaQuery, dedupe) {
-    if (typeof modules === "string") {
-      // eslint-disable-next-line no-param-reassign
-      modules = [[null, modules, ""]];
-    }
-
-    var alreadyImportedModules = {};
-
-    if (dedupe) {
-      for (var i = 0; i < this.length; i++) {
-        // eslint-disable-next-line prefer-destructuring
-        var id = this[i][0];
-
-        if (id != null) {
-          alreadyImportedModules[id] = true;
-        }
-      }
-    }
-
-    for (var _i = 0; _i < modules.length; _i++) {
-      var item = [].concat(modules[_i]);
-
-      if (dedupe && alreadyImportedModules[item[0]]) {
-        // eslint-disable-next-line no-continue
-        continue;
-      }
-
-      if (mediaQuery) {
-        if (!item[2]) {
-          item[2] = mediaQuery;
-        } else {
-          item[2] = "".concat(mediaQuery, " and ").concat(item[2]);
-        }
-      }
-
-      list.push(item);
-    }
-  };
-
-  return list;
-};
+throw new Error("Module build failed (from ./node_modules/css-loader/dist/cjs.js):\nError: Can't resolve 'public/media/loginimage.jpg' in 'C:\\Users\\kalo_\\tooth\\resources\\js\\components'\n    at finishWithoutResolve (C:\\Users\\kalo_\\tooth\\node_modules\\enhanced-resolve\\lib\\Resolver.js:293:18)\n    at C:\\Users\\kalo_\\tooth\\node_modules\\enhanced-resolve\\lib\\Resolver.js:362:15\n    at C:\\Users\\kalo_\\tooth\\node_modules\\enhanced-resolve\\lib\\Resolver.js:410:5\n    at eval (eval at create (C:\\Users\\kalo_\\tooth\\node_modules\\tapable\\lib\\HookCodeFactory.js:33:10), <anonymous>:14:1)\n    at C:\\Users\\kalo_\\tooth\\node_modules\\enhanced-resolve\\lib\\Resolver.js:410:5\n    at eval (eval at create (C:\\Users\\kalo_\\tooth\\node_modules\\tapable\\lib\\HookCodeFactory.js:33:10), <anonymous>:25:1)\n    at C:\\Users\\kalo_\\tooth\\node_modules\\enhanced-resolve\\lib\\DescriptionFilePlugin.js:87:43\n    at C:\\Users\\kalo_\\tooth\\node_modules\\enhanced-resolve\\lib\\Resolver.js:410:5\n    at eval (eval at create (C:\\Users\\kalo_\\tooth\\node_modules\\tapable\\lib\\HookCodeFactory.js:33:10), <anonymous>:13:1)\n    at C:\\Users\\kalo_\\tooth\\node_modules\\enhanced-resolve\\lib\\Resolver.js:410:5\n    at eval (eval at create (C:\\Users\\kalo_\\tooth\\node_modules\\tapable\\lib\\HookCodeFactory.js:33:10), <anonymous>:56:1)\n    at C:\\Users\\kalo_\\tooth\\node_modules\\enhanced-resolve\\lib\\ConditionalPlugin.js:53:42\n    at C:\\Users\\kalo_\\tooth\\node_modules\\enhanced-resolve\\lib\\Resolver.js:410:5\n    at eval (eval at create (C:\\Users\\kalo_\\tooth\\node_modules\\tapable\\lib\\HookCodeFactory.js:33:10), <anonymous>:14:1)\n    at C:\\Users\\kalo_\\tooth\\node_modules\\enhanced-resolve\\lib\\forEachBail.js:16:12\n    at C:\\Users\\kalo_\\tooth\\node_modules\\enhanced-resolve\\lib\\ModulesInHierachicDirectoriesPlugin.js:72:16");
 
 /***/ }),
 
@@ -38143,8 +38062,105 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "render": () => (/* binding */ render),
 /* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
 /* harmony export */ });
-var render = function () {}
-var staticRenderFns = []
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", { staticClass: "container" }, [
+    _c(
+      "div",
+      { staticClass: "row" },
+      [
+        _c("v-img", { attrs: { src: _vm.mymedia } }),
+        _vm._v(" "),
+        _c("div", { staticClass: "wrap" }, [
+          _vm._m(0),
+          _vm._v(" "),
+          _c("form", [
+            _c("h2", [_vm._v("Login Ortho Jáquez")]),
+            _vm._v(" "),
+            _c("div", { staticClass: "info", class: _vm.good }, [
+              _c(
+                "p",
+                {
+                  directives: [
+                    {
+                      name: "show",
+                      rawName: "v-show",
+                      value: _vm.login.login && _vm.login.password,
+                      expression: "login.login && login.password"
+                    }
+                  ]
+                },
+                [
+                  _vm._v(
+                    _vm._s(_vm.login.login) + " / " + _vm._s(_vm.login.password)
+                  )
+                ]
+              )
+            ]),
+            _vm._v(" "),
+            _c("input", {
+              directives: [
+                {
+                  name: "model",
+                  rawName: "v-model",
+                  value: _vm.login.login,
+                  expression: "login.login"
+                }
+              ],
+              attrs: { type: "text", placeholder: "Username" },
+              domProps: { value: _vm.login.login },
+              on: {
+                input: function($event) {
+                  if ($event.target.composing) {
+                    return
+                  }
+                  _vm.$set(_vm.login, "login", $event.target.value)
+                }
+              }
+            }),
+            _vm._v(" "),
+            _c("input", {
+              directives: [
+                {
+                  name: "model",
+                  rawName: "v-model",
+                  value: _vm.login.password,
+                  expression: "login.password"
+                }
+              ],
+              attrs: { type: "password", placeholder: "Password" },
+              domProps: { value: _vm.login.password },
+              on: {
+                input: function($event) {
+                  if ($event.target.composing) {
+                    return
+                  }
+                  _vm.$set(_vm.login, "password", $event.target.value)
+                }
+              }
+            }),
+            _vm._v(" "),
+            _c("button", { on: { click: _vm.onSubmit } }, [_vm._v("Log in")])
+          ])
+        ])
+      ],
+      1
+    )
+  ])
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", [
+      _c("img", { staticStyle: { width: "100%" }, attrs: { id: "fondo" } })
+    ])
+  }
+]
+render._withStripped = true
 
 
 
