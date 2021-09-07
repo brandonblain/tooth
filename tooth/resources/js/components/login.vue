@@ -65,7 +65,6 @@ h2{
 .imagelogin{
   background-size: 100% 100%;
   background-repeat:no-repeat;
-  background:url(public/media/loginimage.jpg);
   background-size: cover;
 }
 input{

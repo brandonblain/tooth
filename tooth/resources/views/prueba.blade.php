@@ -6,8 +6,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Prueba de componente</title>
         <link href="{{asset('css/app.css')}}" rel="stylesheet"> <!--Añadimos el css generado con webpack-->
+
     </head>
-    <body>
+    <body style="background-image: url('{{ asset('media/loginimage.jpg') }}');">
             <div id="app" class="content"><!--La equita id debe ser app, como hemos visto en app.js-->
                 <login-component></login-component><!--Añadimos nuestro componente vuejs-->
             </div>

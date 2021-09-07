@@ -16,10 +16,14 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('welcome');
-})->middleware('AdminMiddleware');
+});
 
 Route::get('/login',function(){
   return view('login');
+});
+
+Route::get('/NuevoPaciente',function(){
+  return view('nuevopaciente');
 });
 
 Route::get('/prueba',function(){
